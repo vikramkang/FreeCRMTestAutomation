@@ -11,16 +11,15 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-
-
-
 import com.crm.qa.util.TestUtil;
 import com.crm.qa.util.WebEventListener;
+
 
 public class TestBase {
 	public static WebDriver driver;
@@ -28,6 +27,7 @@ public class TestBase {
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
 	public static Path path;
+	public static Logger log = Logger.getLogger(TestBase.class);
 	
 	// Constructor to load properties file
 	public TestBase(){

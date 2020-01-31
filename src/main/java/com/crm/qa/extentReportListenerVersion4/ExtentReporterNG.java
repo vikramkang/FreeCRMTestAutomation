@@ -12,8 +12,6 @@ import com.crm.qa.base.TestBase;
 
 	public class ExtentReporterNG extends TestBase implements ITestListener {
 		
-
-
 		public void onStart(ITestContext context) {
 			System.out.println("*** Test Suite " + context.getName() + " started ***");
 		}
