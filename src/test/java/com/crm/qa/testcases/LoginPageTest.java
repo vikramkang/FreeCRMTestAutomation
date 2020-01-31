@@ -29,10 +29,10 @@ public class LoginPageTest extends TestBase{
 	//Test cases
 	@BeforeMethod
 	public void setUp(){
-	
+		log.info("Logging Browser");
 		initialization();
 		loginPage = new LoginPage();// This creation of class object is required to avoid null pointer exception when login page is called later 
-		
+		log.info("Login to application");
 	}
 	@Test
 	public void loginPageTitleTest(){
