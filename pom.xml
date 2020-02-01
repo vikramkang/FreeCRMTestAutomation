@@ -9,11 +9,7 @@
   <version>0.0.1-SNAPSHOT</version>
 
   <name>FreeCRMTestAutomation</name>
-<<<<<<< HEAD
   <!-- Changed on Local -->
-=======
-  <!-- Changed on Github -->
->>>>>>> bfd9270117fbf13bc056428c7630f7aabae43faa
   <url>http://www.example.com</url>
 
   <properties>
