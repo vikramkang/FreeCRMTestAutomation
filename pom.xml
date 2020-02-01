@@ -6,6 +6,8 @@
 
   <groupId>POMFramework</groupId>
   <artifactId>FreeCRMTestAutomation</artifactId>
+  
+  
   <version>0.0.1-SNAPSHOT</version>
 
   <name>FreeCRMTestAutomation</name>
