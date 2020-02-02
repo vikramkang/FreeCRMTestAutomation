@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 285.357 s <<< FAILURE! - in TestSuite
-clickOnContactsLinkTest(com.crm.qa.testcases.HomePageTest)  Time elapsed: 1.052 s  <<< FAILURE!
+Tests run: 13, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 227.75 s <<< FAILURE! - in TestSuite
+clickOnContactsLinkTest(com.crm.qa.testcases.HomePageTest)  Time elapsed: 1.157 s  <<< FAILURE!
 java.lang.AssertionError: expected [https://ui.freecrm.com/contacts] but found [https://ui.cogmento.com/contacts]
 	at com.crm.qa.testcases.HomePageTest.clickOnContactsLinkTest(HomePageTest.java:42)
 
-clickOnDealsLinkTest(com.crm.qa.testcases.HomePageTest)  Time elapsed: 1.364 s  <<< FAILURE!
+clickOnDealsLinkTest(com.crm.qa.testcases.HomePageTest)  Time elapsed: 1.234 s  <<< FAILURE!
 java.lang.AssertionError: expected [https://ui.freecrm.com/deals] but found [https://ui.cogmento.com/deals]
 	at com.crm.qa.testcases.HomePageTest.clickOnDealsLinkTest(HomePageTest.java:48)
 
-loginPageTitleTest(com.crm.qa.testcases.LoginPageTest)  Time elapsed: 0.006 s  <<< FAILURE!
+loginPageTitleTest(com.crm.qa.testcases.LoginPageTest)  Time elapsed: 0.013 s  <<< FAILURE!
 java.lang.AssertionError: expected [Free CRM #1 cloud software for any business large or small] but found [Cogmento CRM and Business Cloud Solutions]
 	at com.crm.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:41)
 

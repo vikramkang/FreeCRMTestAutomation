@@ -11,11 +11,7 @@
   <version>0.0.1-SNAPSHOT</version>
 
   <name>FreeCRMTestAutomation</name>
-
-  <!-- Changed on 1 feb -->
-
-	
-	
+	<!-- Changed on 2 feb -->
   <url>http://www.example.com</url>
 
   <properties>

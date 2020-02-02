@@ -7,7 +7,7 @@
 	</listeners>
 
 
-  <test thread-count="5" name="DisplayDetails">
+  <test thread-count="5" name="DisplayDetails" parallel="classes">
     <classes>
       <class name="com.crm.qa.testcases.LoginPageTest"/>
       <class name="com.crm.qa.testcases.HomePageTest"/>

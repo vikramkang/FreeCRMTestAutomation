@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="285.357" tests="13" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="227.75" tests="13" errors="0" skipped="0" failures="3">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="CA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_221\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\vikra\AppData\Local\Temp\surefire5818849692904392600\surefirebooter1037909965210454515.jar C:\Users\vikra\AppData\Local\Temp\surefire5818849692904392600 2020-01-10T20-21-18_439-jvmRun1 surefire6869492403721597337tmp surefire_01848275556903999222tmp"/>
+    <property name="sun.java.command" value="C:\Users\vikra\AppData\Local\Temp\surefire797803622749026503\surefirebooter3617236978377797173.jar C:\Users\vikra\AppData\Local\Temp\surefire797803622749026503 2020-02-02T00-05-07_611-jvmRun1 surefire5073004344739630046tmp surefire_04002546553962197079tmp"/>
     <property name="surefire.test.class.path" value="C:\Global ERP classes\Project\FreeCRMTestAutomation\target\test-classes;C:\Global ERP classes\Project\FreeCRMTestAutomation\target\classes;C:\Users\vikra\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\vikra\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\vikra\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\vikra\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\vikra\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\vikra\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\vikra\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\vikra\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\vikra\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\vikra\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\vikra\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\vikra\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\vikra\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\vikra\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vikra\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\vikra\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\vikra\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\vikra\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\vikra\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\vikra\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\vikra\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\vikra\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\vikra\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\vikra\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\vikra\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\vikra\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\vikra\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\vikra\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\vikra\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\vikra\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\vikra\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\vikra\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\vikra\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\vikra\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\vikra\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\vikra\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\vikra\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\vikra\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\vikra\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\vikra\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\vikra\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\vikra\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\vikra\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\vikra\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\vikra\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\vikra\.m2\repository\com\aventstack\extentreports-testng-adapter\1.0.3\extentreports-testng-adapter-1.0.3.jar;C:\Users\vikra\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\vikra\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\vikra\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\vikra\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\vikra"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\vikra\AppData\Local\Temp\surefire5818849692904392600\surefirebooter1037909965210454515.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\vikra\AppData\Local\Temp\surefire797803622749026503\surefirebooter3617236978377797173.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_221\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_221\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\vikra\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files (x86)\Java\jdk1.8.0_221/bin;C:\Program Files (x86)\Java\jdk1.8.0_221/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Tools\apache-maven-3.6.2\bin;C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files (x86)\Java\jdk1.8.0_221\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\vikra\AppData\Local\Microsoft\WindowsApps;C:\Users\vikra\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_221\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Tools\apache-maven-3.6.2\bin;C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files (x86)\Java\jdk1.8.0_221\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\vikra\AppData\Local\Microsoft\WindowsApps;C:\Users\vikra\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.1\bin;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.221-b11"/>
@@ -60,14 +60,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="createNewContactTest" classname="com.crm.qa.testcases.ContactsPageTest" time="3.328"/>
-  <testcase name="createNewContactTest" classname="com.crm.qa.testcases.ContactsPageTest" time="2.721"/>
-  <testcase name="createNewContactTest" classname="com.crm.qa.testcases.ContactsPageTest" time="2.6"/>
-  <testcase name="createNewContactTest" classname="com.crm.qa.testcases.ContactsPageTest" time="35.384"/>
-  <testcase name="validateExportButtonTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0.096"/>
-  <testcase name="validateNewButtonTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0.059"/>
-  <testcase name="validateShowFiltersButtonTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0.067"/>
-  <testcase name="clickOnContactsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="1.052">
+  <testcase name="createNewContactTest" classname="com.crm.qa.testcases.ContactsPageTest" time="2.669"/>
+  <testcase name="createNewContactTest" classname="com.crm.qa.testcases.ContactsPageTest" time="2.816"/>
+  <testcase name="createNewContactTest" classname="com.crm.qa.testcases.ContactsPageTest" time="2.594"/>
+  <testcase name="createNewContactTest" classname="com.crm.qa.testcases.ContactsPageTest" time="3.151"/>
+  <testcase name="validateExportButtonTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0.073"/>
+  <testcase name="validateNewButtonTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0.131"/>
+  <testcase name="validateShowFiltersButtonTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0.107"/>
+  <testcase name="clickOnContactsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="1.157">
     <failure message="expected [https://ui.freecrm.com/contacts] but found [https://ui.cogmento.com/contacts]" type="java.lang.AssertionError">java.lang.AssertionError: expected [https://ui.freecrm.com/contacts] but found [https://ui.cogmento.com/contacts]
 	at com.crm.qa.testcases.HomePageTest.clickOnContactsLinkTest(HomePageTest.java:42)
 </failure>
@@ -75,35 +75,35 @@
 Navigated to https://freecrm.com
 Trying to find WebElement By.xpath: //span[contains(text(),'Log In')]
 Found WebElement By.xpath: //span[contains(text(),'Log In')]
-Trying to click on WebElement [[ChromeDriver: chrome on WINDOWS (7dab65fd4129a58394bcd18ba064a57b)] -> xpath: //span[contains(text(),'Log In')]]
-Clicked on WebElement [[ChromeDriver: chrome on WINDOWS (7dab65fd4129a58394bcd18ba064a57b)] -> xpath: //span[contains(text(),'Log In')]]
+Trying to click on WebElement [[ChromeDriver: chrome on WINDOWS (494ca74c6ca2adb0a23f11f5f9ee1c45)] -> xpath: //span[contains(text(),'Log In')]]
+Clicked on WebElement [[ChromeDriver: chrome on WINDOWS (494ca74c6ca2adb0a23f11f5f9ee1c45)] -> xpath: //span[contains(text(),'Log In')]]
 Trying to find WebElement By.name: email
 Found WebElement By.name: email
-Trying to send [Ljava.lang.CharSequence;@172054c to WebElement [[ChromeDriver: chrome on WINDOWS (7dab65fd4129a58394bcd18ba064a57b)] -> name: email]
-Sent[Ljava.lang.CharSequence;@172054c to WebElement [[ChromeDriver: chrome on WINDOWS (7dab65fd4129a58394bcd18ba064a57b)] -> name: email]
+Trying to send [Ljava.lang.CharSequence;@4fc2bf to WebElement [[ChromeDriver: chrome on WINDOWS (494ca74c6ca2adb0a23f11f5f9ee1c45)] -> name: email]
+Sent[Ljava.lang.CharSequence;@4fc2bf to WebElement [[ChromeDriver: chrome on WINDOWS (494ca74c6ca2adb0a23f11f5f9ee1c45)] -> name: email]
 Trying to find WebElement By.name: password
 Found WebElement By.name: password
-Trying to send [Ljava.lang.CharSequence;@6e0f32 to WebElement [[ChromeDriver: chrome on WINDOWS (7dab65fd4129a58394bcd18ba064a57b)] -> name: password]
-Sent[Ljava.lang.CharSequence;@6e0f32 to WebElement [[ChromeDriver: chrome on WINDOWS (7dab65fd4129a58394bcd18ba064a57b)] -> name: password]
+Trying to send [Ljava.lang.CharSequence;@958360 to WebElement [[ChromeDriver: chrome on WINDOWS (494ca74c6ca2adb0a23f11f5f9ee1c45)] -> name: password]
+Sent[Ljava.lang.CharSequence;@958360 to WebElement [[ChromeDriver: chrome on WINDOWS (494ca74c6ca2adb0a23f11f5f9ee1c45)] -> name: password]
 Trying to find WebElement By.xpath: //div[contains(@class,'submit button')]
 Found WebElement By.xpath: //div[contains(@class,'submit button')]
-Trying to click on WebElement [[ChromeDriver: chrome on WINDOWS (7dab65fd4129a58394bcd18ba064a57b)] -> xpath: //div[contains(@class,'submit button')]]
-Clicked on WebElement [[ChromeDriver: chrome on WINDOWS (7dab65fd4129a58394bcd18ba064a57b)] -> xpath: //div[contains(@class,'submit button')]]
+Trying to click on WebElement [[ChromeDriver: chrome on WINDOWS (494ca74c6ca2adb0a23f11f5f9ee1c45)] -> xpath: //div[contains(@class,'submit button')]]
+Clicked on WebElement [[ChromeDriver: chrome on WINDOWS (494ca74c6ca2adb0a23f11f5f9ee1c45)] -> xpath: //div[contains(@class,'submit button')]]
 Trying to find WebElement By.xpath: //span[contains(text(), 'Contacts')]
 Found WebElement By.xpath: //span[contains(text(), 'Contacts')]
-Trying to click on WebElement [[ChromeDriver: chrome on WINDOWS (7dab65fd4129a58394bcd18ba064a57b)] -> xpath: //span[contains(text(), 'Contacts')]]
-Clicked on WebElement [[ChromeDriver: chrome on WINDOWS (7dab65fd4129a58394bcd18ba064a57b)] -> xpath: //span[contains(text(), 'Contacts')]]
+Trying to click on WebElement [[ChromeDriver: chrome on WINDOWS (494ca74c6ca2adb0a23f11f5f9ee1c45)] -> xpath: //span[contains(text(), 'Contacts')]]
+Clicked on WebElement [[ChromeDriver: chrome on WINDOWS (494ca74c6ca2adb0a23f11f5f9ee1c45)] -> xpath: //span[contains(text(), 'Contacts')]]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 21811
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 37975
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1578705865.812][WARNING]: Timed out connecting to Chrome, retrying...
-Jan 10, 2020 8:24:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1580620043.063][WARNING]: Timed out connecting to Chrome, retrying...
+Feb 02, 2020 12:07:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1578705869.846][WARNING]: Timed out connecting to Chrome, retrying...
+[1580620047.115][WARNING]: Timed out connecting to Chrome, retrying...
 ]]></system-err>
   </testcase>
-  <testcase name="clickOnDealsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="1.364">
+  <testcase name="clickOnDealsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="1.234">
     <failure message="expected [https://ui.freecrm.com/deals] but found [https://ui.cogmento.com/deals]" type="java.lang.AssertionError">java.lang.AssertionError: expected [https://ui.freecrm.com/deals] but found [https://ui.cogmento.com/deals]
 	at com.crm.qa.testcases.HomePageTest.clickOnDealsLinkTest(HomePageTest.java:48)
 </failure>
@@ -111,53 +111,53 @@ INFO: Detected dialect: W3C
 Navigated to https://freecrm.com
 Trying to find WebElement By.xpath: //span[contains(text(),'Log In')]
 Found WebElement By.xpath: //span[contains(text(),'Log In')]
-Trying to click on WebElement [[ChromeDriver: chrome on WINDOWS (05bd6d129bd6913f8555c033283653b5)] -> xpath: //span[contains(text(),'Log In')]]
-Clicked on WebElement [[ChromeDriver: chrome on WINDOWS (05bd6d129bd6913f8555c033283653b5)] -> xpath: //span[contains(text(),'Log In')]]
+Trying to click on WebElement [[ChromeDriver: chrome on WINDOWS (7bb4ba6bd06e0aa24a52a7f31df90337)] -> xpath: //span[contains(text(),'Log In')]]
+Clicked on WebElement [[ChromeDriver: chrome on WINDOWS (7bb4ba6bd06e0aa24a52a7f31df90337)] -> xpath: //span[contains(text(),'Log In')]]
 Trying to find WebElement By.name: email
 Found WebElement By.name: email
-Trying to send [Ljava.lang.CharSequence;@808207 to WebElement [[ChromeDriver: chrome on WINDOWS (05bd6d129bd6913f8555c033283653b5)] -> name: email]
-Sent[Ljava.lang.CharSequence;@808207 to WebElement [[ChromeDriver: chrome on WINDOWS (05bd6d129bd6913f8555c033283653b5)] -> name: email]
+Trying to send [Ljava.lang.CharSequence;@2726f1 to WebElement [[ChromeDriver: chrome on WINDOWS (7bb4ba6bd06e0aa24a52a7f31df90337)] -> name: email]
+Sent[Ljava.lang.CharSequence;@2726f1 to WebElement [[ChromeDriver: chrome on WINDOWS (7bb4ba6bd06e0aa24a52a7f31df90337)] -> name: email]
 Trying to find WebElement By.name: password
 Found WebElement By.name: password
-Trying to send [Ljava.lang.CharSequence;@1f8def to WebElement [[ChromeDriver: chrome on WINDOWS (05bd6d129bd6913f8555c033283653b5)] -> name: password]
-Sent[Ljava.lang.CharSequence;@1f8def to WebElement [[ChromeDriver: chrome on WINDOWS (05bd6d129bd6913f8555c033283653b5)] -> name: password]
+Trying to send [Ljava.lang.CharSequence;@d25c03 to WebElement [[ChromeDriver: chrome on WINDOWS (7bb4ba6bd06e0aa24a52a7f31df90337)] -> name: password]
+Sent[Ljava.lang.CharSequence;@d25c03 to WebElement [[ChromeDriver: chrome on WINDOWS (7bb4ba6bd06e0aa24a52a7f31df90337)] -> name: password]
 Trying to find WebElement By.xpath: //div[contains(@class,'submit button')]
 Found WebElement By.xpath: //div[contains(@class,'submit button')]
-Trying to click on WebElement [[ChromeDriver: chrome on WINDOWS (05bd6d129bd6913f8555c033283653b5)] -> xpath: //div[contains(@class,'submit button')]]
-Clicked on WebElement [[ChromeDriver: chrome on WINDOWS (05bd6d129bd6913f8555c033283653b5)] -> xpath: //div[contains(@class,'submit button')]]
+Trying to click on WebElement [[ChromeDriver: chrome on WINDOWS (7bb4ba6bd06e0aa24a52a7f31df90337)] -> xpath: //div[contains(@class,'submit button')]]
+Clicked on WebElement [[ChromeDriver: chrome on WINDOWS (7bb4ba6bd06e0aa24a52a7f31df90337)] -> xpath: //div[contains(@class,'submit button')]]
 Trying to find WebElement By.xpath: //span[contains(text(), 'Deals')]
 Found WebElement By.xpath: //span[contains(text(), 'Deals')]
-Trying to click on WebElement [[ChromeDriver: chrome on WINDOWS (05bd6d129bd6913f8555c033283653b5)] -> xpath: //span[contains(text(), 'Deals')]]
-Clicked on WebElement [[ChromeDriver: chrome on WINDOWS (05bd6d129bd6913f8555c033283653b5)] -> xpath: //span[contains(text(), 'Deals')]]
+Trying to click on WebElement [[ChromeDriver: chrome on WINDOWS (7bb4ba6bd06e0aa24a52a7f31df90337)] -> xpath: //span[contains(text(), 'Deals')]]
+Clicked on WebElement [[ChromeDriver: chrome on WINDOWS (7bb4ba6bd06e0aa24a52a7f31df90337)] -> xpath: //span[contains(text(), 'Deals')]]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 22532
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 35261
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1578705884.396][WARNING]: Timed out connecting to Chrome, retrying...
-Jan 10, 2020 8:24:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1580620061.307][WARNING]: Timed out connecting to Chrome, retrying...
+Feb 02, 2020 12:07:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1578705888.452][WARNING]: Timed out connecting to Chrome, retrying...
+[1580620065.342][WARNING]: Timed out connecting to Chrome, retrying...
 ]]></system-err>
   </testcase>
-  <testcase name="userNameLabelTest" classname="com.crm.qa.testcases.HomePageTest" time="1.21"/>
-  <testcase name="crmLogoImageTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.071"/>
-  <testcase name="loginPageTitleTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.006">
+  <testcase name="userNameLabelTest" classname="com.crm.qa.testcases.HomePageTest" time="0.904"/>
+  <testcase name="crmLogoImageTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.039"/>
+  <testcase name="loginPageTitleTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.013">
     <failure message="expected [Free CRM #1 cloud software for any business large or small] but found [Cogmento CRM and Business Cloud Solutions]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Free CRM #1 cloud software for any business large or small] but found [Cogmento CRM and Business Cloud Solutions]
 	at com.crm.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:41)
 </failure>
-    <system-out><![CDATA[2020-01-10 20:25:34 INFO  TestBase:32 - Logging Browser
+    <system-out><![CDATA[2020-02-02 00:08:25 INFO  TestBase:32 - Logging Browser
 Before navigating to https://freecrm.com
 Navigated to https://freecrm.com
-2020-01-10 20:25:46 INFO  TestBase:35 - Login to application
+2020-02-02 00:08:37 INFO  TestBase:35 - Login to application
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 31934
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 40636
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1578705937.237][WARNING]: Timed out connecting to Chrome, retrying...
-Jan 10, 2020 8:25:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1580620108.809][WARNING]: Timed out connecting to Chrome, retrying...
+Feb 02, 2020 12:08:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1578705941.292][WARNING]: Timed out connecting to Chrome, retrying...
+[1580620112.835][WARNING]: Timed out connecting to Chrome, retrying...
 ]]></system-err>
   </testcase>
-  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="3.841"/>
+  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="2.427"/>
 </testsuite>
